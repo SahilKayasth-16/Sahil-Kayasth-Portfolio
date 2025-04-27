@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <h3 class="logo"><span>My </span>Portfolio_</h3>
+            <ul>
+                <li type="none"><a href="index.html">Home</a></li>
+                <li type="none"><a href="about.html">About</a></li>
+                <li type="none"><a href="work.html">Work</a></li>
+            </ul>           
+        </header>
+        <div class="content">
+            <h3>Hey_</h3>
+            <h2><span id="text">Sahil Kayasth</span> this side.</h2>
+            <p>I'm a 3rd-year Computer Science student passionate about web development.
+                I enjoy building functional and user-friendly web applications using HTML, CSS, JavaScript, and PHP. 
+                Apart from that, I am actively contributing to technical events and projects. <br><br>
+
+                🚀 Looking for opportunities to learn, grow, and collaborate!</p>
+                <button id="hireMe">Hire Me</button>
+                <button id="chat">Let's chat <i class="fa-regular fa-comments"></i></button>
+        </div>
+        <img src="image.png" alt="" class="colors" width="700" height="500"><br>
+        <img src="sahil.png" alt="" class="sahil" width="350" height="350">
+        <ul class="sci" type="none">
+            <li><a href="https://www.linkedin.com/in/Sahil Kayasth" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/maddy_minded_xvi_" target="_blank" ><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/share/1C4XAiqf1y/" target="_blank"  class="icon"><i class="fa-brands fa-square-facebook"></i></a></li>
+        </ul>
+    </section>
+</body>
+<script>
+        document.getElementById('chat').addEventListener("click", function() {
+            window.open("https://wa.me/918320727731", "_blank");
+        });
+        document.getElementById('hireMe').addEventListener("click", function() {
+            window.open("https://mail.google.com/mail/?view=cm&fs=1&to=sahilk16.sk@gmail.com", "_blank");
+        });
+</script>
+</html>
