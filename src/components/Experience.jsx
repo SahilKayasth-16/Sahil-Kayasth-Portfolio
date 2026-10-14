@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const experience = [
   {
-    role: 'Associate Member of Technical Staff',
+    role: 'Associate Member of Technical Staff | On Site',
     company: 'GyanMirai Technologies',
     period: 'Oct 2026 – Present',
     desc: ' Contribute to the design, development, and maintenance of software applications as part of the technical team. '
