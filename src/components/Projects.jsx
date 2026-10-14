@@ -35,7 +35,16 @@ const projects = [
     tech: ['PostgreSQL','Express.js', 'React.js', 'Node.js', 'Prisma ORM', 'Tailwind CSS'],
     github: 'https://github.com/SahilKayasth-16/Web-Quiz-Management-Online-Assessment-Platform',
     live: 'https://github.com/SahilKayasth-16/Web-Quiz-Management-Online-Assessment-Platform'
-  }
+  },
+  {
+    title: 'MarketForge - Templates',
+    image: '/Market_Forge_Logo.png',
+    desc: 'A modern full-stack digital marketplace for browsing, purchasing, and managing downloadable website templates.',
+    tech: ['Mongo DB','Express.js', 'React.js', 'Node.js', 'TypeScript', 'Tailwind CSS'],
+    github: 'https://github.com/SahilKayasth-16/Template-Marketplace',
+    live: 'https://marketforge-templates.vercel.app/'
+  },
+
 ]
 
 export const Projects = () => {
