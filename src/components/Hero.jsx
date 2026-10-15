@@ -16,7 +16,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-primary font-bold tracking-[0.2em] mb-4 uppercase">
-            MERN Stack Developer
+            Full Stack Developer
           </h2>
 
           <h1 className="text-6xl md:text-8xl font-black mb-6 leading-tight">

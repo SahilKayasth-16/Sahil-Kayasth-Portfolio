@@ -29,7 +29,7 @@ const experience = [
   {
     role: 'Web Developer Intern | On Site',
     company: 'Future Way Institute of Multimedia',
-    period: 'Jul 2025 – Jul 2025',
+    period: 'Jul 2025',
     desc: 'Engineered a role-based access control system using Laravel for four distinct user types.'
   }
 ]
