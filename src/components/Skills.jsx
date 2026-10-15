@@ -5,7 +5,7 @@ import { Code, Database, Globe, GlobeCode, Settings } from 'lucide-react'
 const skills = [
   { name: 'Languages', items: ['JavaScript (ES6+)', 'TypeScript', 'Python', 'PHP', 'HTML5', 'CSS3'], icon: GlobeCode },
   { name: 'Frontend', items: ['React.js', 'Next.js', 'Tailwind CSS'], icon: Globe },
-  { name: 'Backend', items: ['Node.js', 'Express.js', 'FastAPI', 'PHP', 'Python'], icon: Code },
+  { name: 'Backend', items: ['Node.js', 'Express.js', 'Fast API', 'PHP'], icon: Code },
   { name: 'Database', items: ['MongoDB', 'Mongoose','PostgreSQL', 'MySQL', 'Redis', 'Prisma ORM'], icon: Database },
   { name: 'Tools & Deployment', items: ['Git', 'GitHub', 'Postman', 'Vercel', 'Render', 'REST APIs'], icon: Settings }
 ]
