@@ -154,7 +154,7 @@ export const Experience = () => {
                           View Certificate
                         </>
                       ) : (
-                        'Certificate coming soon'
+                        ' '
                       )}
                     </span>
                   </button>
