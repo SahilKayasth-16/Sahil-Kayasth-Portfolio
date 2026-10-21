@@ -1,45 +1,45 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React, { useEffect, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const experience = [
   {
     role: 'Associate Member of Technical Staff | On Site',
     company: 'GyanMirai Technologies',
     period: 'Oct 2026 – Present',
-    desc: ' Contribute to the design, development, and maintenance of software applications as part of the technical team. '
+    desc: 'Contribute to the design, development, and maintenance of software applications as part of the technical team.',
   },
   {
     role: 'Full Stack Developer Intern | Remote',
     company: 'Infotact Solutions',
     period: 'Jul 2026 – Oct 2026',
-    desc: ' Developed FleetDash (fleet management) and LedgerGuard (multi-tenant billing and ledger management), full-stack applications built with React, Node.js, Express.js, TypeScript, and MongoDB. ',
-    certificates: '/certificates/Infotact_Certificate.jpeg'
+    desc: 'Developed FleetDash (fleet management) and LedgerGuard (multi-tenant billing and ledger management), full-stack applications built with React, Node.js, Express.js, TypeScript, and MongoDB.',
+    certificate: '/certificates/Infotact_Certificate.png'
   },
   {
     role: 'Web Developer Intern | Remote',
     company: 'Syntecxhub',
     period: 'Jun 2026',
-    desc: 'Work on several individual projects such as Notes App, User Management System, Employee Management System and Real-time Chat Application developed using MERN Stack & Socket.io.',
-    certificates: '/certificates/Syntecxhub_Certificate.jpeg'
+    desc: 'Worked on individual projects such as Notes App, User Management System, Employee Management System, and Real-time Chat Application using the MERN stack and Socket.io.',
+    certificate: '/certificates/Syntecxhub_Certificate.png'
   },
   {
     role: 'Full Stack Developer Intern | On Site',
     company: 'Bhaskaracharya National Institute for Space Applications and Geo-informatics (BISAG-N)',
     period: 'Jan 2026 – Apr 2026',
-    desc: 'Developed a web based platform for urban planning with utility managment integrated with AI Chatbot to support business related queries by providing data driven solutions using React(Vite), Python & FastAPI, PostgreSQL with Post GIS extension and Ollama Phi-3 model.',
-    certificates: '/certificates/BISAG_Certificate.jpeg'
+    desc: 'Developed a web-based urban planning platform with utility management and an AI chatbot using React (Vite), Python, FastAPI, PostgreSQL with PostGIS, and the Ollama Phi-3 model.',
+    certificate: '/certificates/BISAG_Certificate.png'
   },
   {
     role: 'Web Developer Intern | On Site',
     company: 'Future Way Institute of Multimedia',
     period: 'Jul 2025',
     desc: 'Engineered a role-based access control system using Laravel for four distinct user types.',
-    certificates: '/certificates/FutureWay_Certificate.jpeg'
+    certificate: '/certificates/FutureWay_Certificate.png'
   }
 ]
 
 export const Experience = () => {
-  const [ selectedCertificate, setSelectedCertificate ] = useState(null);
+  const [selectedCertificate, setSelectedCertificate] = useState(null)
 
   useEffect(() => {
     if (!selectedCertificate) return
@@ -51,24 +51,23 @@ export const Experience = () => {
     }
 
     window.addEventListener('keydown', handleKeyDown)
-
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [selectedCertificate])
 
   return (
     <section id="experience" className="py-24">
-    <div className="container mx-auto px-6">
-    <div className="text-center mb-20">
-    <h2 className="text-primary font-bold tracking-[0.2em] mb-4 uppercase">
-    Career Path
-    </h2>
-    <h3 className="text-4xl md:text-6xl font-black">
-    Experience Timeline
-    </h3>
-    <p className="text-gray-400 mt-4">
-    Click on an experience to view its certificate.
-    </p>
-    </div>
+      <div className="container mx-auto px-6">
+        <div className="text-center mb-20">
+          <h2 className="text-primary font-bold tracking-[0.2em] mb-4 uppercase">
+            Career Path
+          </h2>
+          <h3 className="text-4xl md:text-6xl font-black">
+            Experience Timeline
+          </h3>
+          <p className="text-gray-400 mt-4">
+            Click on an experience to view its certificate.
+          </p>
+        </div>
 
         <div className="max-w-4xl mx-auto relative">
           <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-white bg-opacity-10 transform md:-translate-x-1/2" />
