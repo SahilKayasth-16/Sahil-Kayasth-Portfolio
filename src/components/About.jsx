@@ -42,7 +42,7 @@ export const About = () => {
                 { icon: Award, label: '8.23 CGPA', sub: 'B.E. Computer Science' },
                 { icon: BookOpen, label: '4 Projects', sub: 'Deployed & Working' },
                 { icon: Heart, label: 'Disciplined', sub: 'Growth Mindset' },
-                { icon: Award, label: 'Certificates', sub: 'MERN Stack Expert' }
+                { icon: Award, label: 'Certificates', sub: 'Full Stack Development with MERN Stack | SSM Excellence Learning Centre & Microsoft Power BI | Skill Course' }
               ].map((item, i) => (
                 <div key={i} className="glass p-6 rounded-2xl flex items-center gap-4 group hover:bg-white hover:bg-opacity-10 transition-all">
                   <div className="text-primary group-hover:scale-110 transition-transform">
